@@ -37,3 +37,11 @@ jobs:
           name: jest-junit
           path: coverage
         continue-on-error: true
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build (placeholder)
+        run: echo "Add real build if needed"
+
+      
